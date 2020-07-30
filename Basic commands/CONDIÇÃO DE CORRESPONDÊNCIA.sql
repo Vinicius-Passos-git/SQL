@@ -1,0 +1,9 @@
+/* CONDIÇÃO DE CORRESPONDÊNCIA */
+
+USE BANK;
+
+SELECT EMP_ID,
+	   FNAME,
+	   LNAME
+FROM employee
+WHERE LEFT(LNAME,1) = 'T';
